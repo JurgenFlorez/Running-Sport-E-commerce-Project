@@ -11,7 +11,7 @@
           <!-- Logo -->
           <img
             class="mx-auto w-20 md:w-24 h-auto cursor-pointer"
-            src="/public/Logo RS[7].png"
+            src="/Logo RS[7].png"
             alt="Logo Running Sport"
           />
 
