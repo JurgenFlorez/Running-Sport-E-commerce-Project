@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/Home.vue";
 import LoginView from "../views/Login.vue";
-import Principalpage from "../views/Registro.vue";
+import Principalpage from "../views/nadvar.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,7 +23,7 @@ const router = createRouter({
       },
     },
     {
-      path: "/principal",
+      path: "/Home",
       name: "principal",
       component: () => import("../views/Home.vue"),
     },
@@ -33,9 +33,9 @@ const router = createRouter({
       component: () => import("../views/Login.vue"),
     },
     {
-      path: "/Registro",
-      name: "registro",
-      component: () => import("../views/Registro.vue"),
+      path: "/nadvar",
+      name: "Home",
+      component: () => import("../views/nadvar.vue"),
     },
   ],
 });

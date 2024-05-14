@@ -8,7 +8,7 @@
         <img
           src="/public/Logo RS[7].png"
           alt="logo"
-          class="w-11 lg:w-13 mr-4"
+          class="w-11 lg:w-13 mr-4 cursor-pointer"
         />
       </div>
       <div class="flex justify-between">
@@ -21,11 +21,11 @@
       </div>
 
       <!-- Sección derecha: Logo del carrito y botones -->
-      <div class="flex items-center">
+      <div class="flex items-center |">
         <img
           src="/public/carrito.png"
           alt="logo de carrito"
-          class="w-8 lg: w-12 mx-4"
+          class="w-8 lg: w-12 mx-4 cursor-pointer"
         />
         <button
           class="transition rounded-sm p-2 w-full bg-gradient-to-r from-slate-100 to-fuchsia-100 hover:to-fuchsia-400 hover:from-purple-200 text-black rounded-lg font-bold py-2 px-4 mr-2 shadow-md"
@@ -42,7 +42,7 @@
 
     <div class="relative sm:mx-5 md:mx-10 lg:mx-40 mt-4 flex justify-center">
       <img
-        src="/public/logo background.png"
+        src="/public/principal.png"
         alt=""
         class="max-w-2xl sm:max-5 lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl w-full h-auto"
       />
