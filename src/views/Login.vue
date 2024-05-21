@@ -1,6 +1,6 @@
 <template>
   <div
-    class="p-4 lg:p-10 bg-gray-200 min-h-screen flex items-center justify-center"
+    class="p-4 lg:p-10 bg-gray-100 min-h-screen flex items-center justify-center"
   >
     <div
       class="bg-white shadow-lg overflow-hidden rounded-xl w-full lg:w-3/4 lg:flex h-auto z-50"

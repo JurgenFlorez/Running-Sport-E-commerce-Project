@@ -1,5 +1,5 @@
 <template>
-  <h1>Hello principal page</h1>
+  <h1>Hello</h1>
 </template>
 
 <style>
